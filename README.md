@@ -4,12 +4,6 @@ A deep learning-based system that detects plant leaf diseases using a trained Te
 
 ---
 
-## 📸 Demo
-
-![Homepage](assets/home_page.jpeg)
-
----
-
 ## 🚀 Features
 
 - 🌱 Identify plant leaf diseases using a trained CNN model
@@ -42,17 +36,13 @@ plant-disease-detection/
 ├── .gitignore # Files/folders ignored by Git
 └── README.md # You're here
 
-yaml
-Copy
-Edit
-
 ---
 
 ## 📁 Dataset
 
 The dataset used for training and testing is not included in this repository due to size limitations.
 
-📥 **[Download Dataset (Google Drive)](https://drive.google.com/your-dataset-link)**
+📥 **[Download Dataset][(https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset))**
 
 After downloading, place the folders in this structure:
 
@@ -62,43 +52,30 @@ plant-disease-detection/
 ├── valid/
 └── test/
 
-yaml
-Copy
-Edit
-
 ---
 
 ## 🖥️ Installation & Running
 
 ### 1️⃣ Clone the Repository
 
-```bash
 git clone https://github.com/Madhuril-Bhaskar/Plant-Disease-Recognition.git
 cd Plant-Disease-Recognition
+
 2️⃣ Create a Virtual Environment (optional but recommended)
-bash
-Copy
-Edit
 python -m venv .venv
 source .venv/bin/activate        # Linux/macOS
 .venv\Scripts\activate           # Windows
+
 3️⃣ Install Dependencies
-bash
-Copy
-Edit
 pip install -r requirements.txt
+
 4️⃣ Run the Web App
-bash
-Copy
-Edit
-streamlit run src/main.py
+python -m streamlit run main.py
+
 ⚙️ Requirements
 Python 3.8+ and the following packages:
 
-makefile
-Copy
-Edit
-streamlit==1.33.0
+streamlit
 tensorflow==2.17.0
 numpy==1.24.3
 Pillow
@@ -107,6 +84,7 @@ matplotlib==3.7.2
 seaborn==0.13.0
 pandas==2.1.0
 librosa==0.10.1
+
 📌 Example Prediction
 Upload a plant leaf image and the app will:
 
