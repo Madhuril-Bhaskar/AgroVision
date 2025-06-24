@@ -32,7 +32,7 @@ Displays the app's homepage with header and overview image.
 ---
 
 ### ℹ️ About Page
-Users can upload a plant leaf image to predict the disease.
+Explains the dataset, supported crops, and how the model predicts diseases from uploaded leaf images.
 
 ![About Page](assets/about.png)
 
