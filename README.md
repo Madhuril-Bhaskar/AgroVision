@@ -80,9 +80,9 @@ After downloading, place the folders in this structure:
 ```
 plant-disease-detection/
 └── data/
-├── train/
-├── valid/
-└── test/
+    ├── train/
+    ├── valid/
+    └── test/
 ```
 ---
 
