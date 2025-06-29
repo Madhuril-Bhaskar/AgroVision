@@ -1,4 +1,4 @@
-# 🌿 Plant Disease Recognition System
+# 🌿 AgroVision: Plant Disease Recognition System
 
 A deep learning-based system that detects plant leaf diseases using a trained TensorFlow model and an interactive Streamlit web app. This project uses image classification techniques to identify the disease from leaf images and suggests possible treatments.
 
