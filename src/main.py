@@ -36,7 +36,7 @@ app_mode = st.sidebar.selectbox("Select Page",["Home","About","Disease Recogniti
 #Main Page
 if(app_mode=="Home"):
     
-    st.header("PLANT DISEASE RECOGNITION SYSTEM")
+    st.header("AgroVision: Plant Disease Detection System")
      # Relative path to image
     image_path = os.path.join(os.path.dirname(__file__), '..', 'assets', 'home_page.jpeg')
     st.image(image_path, use_container_width=True)
@@ -60,7 +60,7 @@ if(app_mode=="Home"):
     """, unsafe_allow_html=True)
 
     st.markdown("""
-    ## 🌿 Welcome to the Plant Disease Recognition System
+    ## 🌿 Welcome to the AgroVision
 
     > *"Healthy plants, healthy planet."*
 
